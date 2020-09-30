@@ -2,7 +2,10 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Collection;
 import java.util.Scanner;
-
+/*
+APP图片精简工具
+风的影子
+*/
 public class AssetsMain {
 	
 	public static void main(String[] args) {
