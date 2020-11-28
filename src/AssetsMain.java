@@ -17,7 +17,7 @@ public class AssetsMain {
 		code_path = input.nextLine();
 		
 		//获取工程路径里所有代码
-				Collection<File> list_file = FileUtils.listFiles(new File(code_path), ".java|.kt|.dart|.swift|.c|.h|.cpp|.js|.wxss|.wxml|.json".split("\\|"),true);
+				Collection<File> list_file = FileUtils.listFiles(new File(code_path), ".java|.kt|.dart|.swift|.c|.h|.cpp|.js|.wxss|.wxml|.json|.php|.jsp|.asp|.go|.py".split("\\|"),true);
 				for(File file:list_file){
 					try {
 						builder.append(FileUtils.read(file, "UTF-8"));
